@@ -15,9 +15,10 @@
 
 ![react-quiz-correct](https://github.com/user-attachments/assets/0c35cc62-98b2-474b-8283-2517166dfcad)
 ![react-quiz-error](https://github.com/user-attachments/assets/48a4fddb-3e22-4c14-b933-ba6e1eb478df)
-![react-quiz-result-0](https://github.com/user-attachments/assets/25901278-87e9-4763-a524-bed8f4c481e2)
-![react-quiz-result-1](https://github.com/user-attachments/assets/0de15beb-b96c-4aea-bec2-075c1c3332b7)
-![react-quiz-result-2](https://github.com/user-attachments/assets/5ee20d2b-44ed-4f76-8197-10fc835eea3e)
+![react-quiz-trophy](https://github.com/user-attachments/assets/dc006144-a07f-4d29-9f2f-be1a4cd214be)
+![react-quiz-answers](https://github.com/user-attachments/assets/b81e13f3-1a1a-4ec7-af06-c3c5d6e5dbf7)
+
+
 
 
 ---
