@@ -28,7 +28,7 @@ export default function QuizResult() {
   if (correctAnswers === answers.length) {
     imageTrophy = trophyImg;
     labelTrophy = "gold";
-  } else if (incorrectAnswers <= 3) {
+  } else if (incorrectAnswers <= 3 && skippedAnswers <= 3) {
     imageTrophy = silverTrophyImg;
     labelTrophy = "silver";
   }
