@@ -13,10 +13,10 @@ export default function ProgressBar({ max, onChangeQuestion, onSelectAnswer }) {
         if (onSelectAnswer !== null) {
           return 0.1;
         } else {
-          return prevProgressValue - 100;
+          return prevProgressValue - 10;
         }
       });
-    }, 100);
+    }, 10);
 
     if (progressValue <= 0) {
       clearInterval(interval);
