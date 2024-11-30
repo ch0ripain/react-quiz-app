@@ -19,3 +19,18 @@ progress::-webkit-progress-value {
   background-color: white;
   border-radius: 12px;
 }
+
+.answer {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping-slow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.99);
+  }
+}

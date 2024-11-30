@@ -18,12 +18,12 @@ export default function QuizAnswer({
 
   return (
     <>
-      <strong className="text-white bg-gradient-to-r from-amber-300 via-yellow-500 to-amber-300 rounded-full min-h-10 p-2 content-center uppercase text-center">
+      <strong className="text-white bg-gradient-to-r from-amber-300 via-yellow-500 to-amber-300 rounded-full min-h-10 p-2 content-center uppercase text-center answer">
         {`${currentIndexQuestion + 1}/${7}` + " - ¿" + activeQuestion.text}
       </strong>
       <div className="flex flex-col gap-y-5">
         {activeAnswers.map((answer, answerIndex) => {
-          let cssAnswerBg = "bg-gradient-to-r from-fuchsia-600 to-purple-600 ";
+          let cssAnswerBg = "bg-gradient-to-r from-fuchsia-600 to-cyan-600 ";
           if (
             isAnswerSelected == answerIndex &&
             answer === activeCorrectAnswer
