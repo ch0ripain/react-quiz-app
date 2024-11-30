@@ -23,7 +23,7 @@ export default function QuizAnswer({
       </strong>
       <div className="flex flex-col gap-y-5">
         {activeAnswers.map((answer, answerIndex) => {
-          let cssAnswerBg = "bg-gradient-to-r from-blue-800 to-indigo-900 ";
+          let cssAnswerBg = "bg-gradient-to-r from-fuchsia-600 to-purple-600 ";
           if (
             isAnswerSelected == answerIndex &&
             answer === activeCorrectAnswer

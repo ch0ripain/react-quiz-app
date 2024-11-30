@@ -22,13 +22,14 @@ export default function QuizResult() {
   });
 
   const incorrectAnswers = QUESTIONS.length - (correctAnswers + skippedAnswers);
+  const totalIncorrectAnswers = incorrectAnswers + skippedAnswers;
 
   let imageTrophy = bronzeTrophyImg;
   let labelTrophy = "bronze";
-  if (correctAnswers === answers.length) {
+  if (totalIncorrectAnswers === 0) {
     imageTrophy = trophyImg;
     labelTrophy = "gold";
-  } else if (incorrectAnswers <= 3 && skippedAnswers <= 3) {
+  } else if (totalIncorrectAnswers <= 3) {
     imageTrophy = silverTrophyImg;
     labelTrophy = "silver";
   }

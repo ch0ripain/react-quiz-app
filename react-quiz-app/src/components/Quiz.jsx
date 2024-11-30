@@ -34,7 +34,7 @@ export default function Quiz() {
   }
 
   return (
-    <section className="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex flex-col gap-y-10 px-32 py-16">
+    <section className="bg-gradient-to-r from-black via-gray-900 to-black rounded-2xl flex flex-col gap-y-10 px-32 py-16">
       <ProgressBar
         key={currentQuestionIndex}
         max={TIMER}
