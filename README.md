@@ -13,8 +13,8 @@
   </a>
 </div>
 
-![react-quiz-correct](https://github.com/user-attachments/assets/87afcf36-debc-4bbe-b257-10e570cc6d3c)
-![react-quiz-incorrect](https://github.com/user-attachments/assets/f3656936-4c9b-4ff2-8cc7-67ec3bf74c3d)
+![react-quiz-incorrect](https://github.com/user-attachments/assets/f14e69b4-ac95-479a-a4e6-d8c5e3016661)
+![react-quiz-correct](https://github.com/user-attachments/assets/b03be8b5-e85e-440f-ad3a-85b23403b079)
 ![react-quiz-trophy](https://github.com/user-attachments/assets/dc006144-a07f-4d29-9f2f-be1a4cd214be)
 ![react-quiz-answers](https://github.com/user-attachments/assets/b81e13f3-1a1a-4ec7-af06-c3c5d6e5dbf7)
 
