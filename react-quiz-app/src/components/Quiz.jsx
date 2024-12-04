@@ -6,6 +6,11 @@ import QuizResult from "./QuizResult";
 
 const TIMER = 10000;
 
+let copyAnswers = [...QUESTIONS.map((question) => [...question.answers])];
+const SORTED_ANSWERS = copyAnswers.map((answers) =>
+  answers.sort(() => Math.random() - 0.5)
+);
+
 export default function Quiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
@@ -21,9 +26,6 @@ export default function Quiz() {
 
   const activeCorrectAnswer = QUESTIONS[currentQuestionIndex].answers[0];
   const activeQuestion = QUESTIONS[currentQuestionIndex];
-  let activeAnswers = [...QUESTIONS[currentQuestionIndex].answers];
-
-  activeAnswers.sort();
 
   function handleUserAnswer(answerIndex) {
     setIsAnswerSelected(answerIndex);
@@ -44,7 +46,7 @@ export default function Quiz() {
 
       <QuizAnswer
         activeQuestion={activeQuestion}
-        activeAnswers={activeAnswers}
+        activeAnswers={SORTED_ANSWERS[currentQuestionIndex]}
         isAnswerSelected={isAnswerSelected}
         activeCorrectAnswer={activeCorrectAnswer}
         onUserAnswer={handleUserAnswer}
